@@ -6,7 +6,8 @@ import classes from './Img.module.css';
 const Img = () => {
   return (
     <div>
-      <img className={classes.img} src={ImageDesktop}></img>
+      <img className={classes.imgM} src={ImageMobile}></img>
+      <img className={classes.imgD} src={ImageDesktop}></img>
     </div>
   );
 };
